@@ -1,0 +1,44 @@
+{
+  "name": "typescript-library-template",
+  "version": "0.0.1",
+  "description": "Rollup your code and types for publishing",
+  "main": "dist/index.js",
+  "module": "dist/index-esm.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:reconbot/typescript-library-template.git",
+  "homepage": "https://github.com/reconbot/typescript-library-template",
+  "scripts": {
+    "test": "npm run unit-test && npm run lint",
+    "unit-test": "mocha --opts lib/mocha.opts",
+    "lint": "tsc && tslint lib/*.ts",
+    "format": "tslint lib/*.ts --fix",
+    "build": "rm -rf dist-ts dist && tsc -p tsconfig-build.json && rollup -c rollup.config-esm.js && rollup -c rollup.config-umd.js && ts-node bundle-types",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "typescript-library-template"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.3.8",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "prettier": "^1.15.2",
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "through2-concurrent": "^2.0.0",
+    "ts-node": "^8.3.0",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
