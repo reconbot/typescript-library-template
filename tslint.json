@@ -34,7 +34,7 @@
         "trailing-comma": [
             false
         ],
-        "object-literal-sort-keys": [false]
+        "object-literal-sort-keys": false
     },
     "rulesDirectory": [
         "tslint-plugin-prettier"
