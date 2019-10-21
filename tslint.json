@@ -4,7 +4,9 @@
         "tslint:recommended",
         "tslint-config-prettier"
     ],
-    "jsRules": {},
+    "jsRules": {
+        "object-literal-sort-keys": false
+    },
     "rules": {
         "adjacent-overload-signatures": false,
         "arrow-parens": [
