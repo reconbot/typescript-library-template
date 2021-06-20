@@ -1,37 +1,41 @@
 module.exports = {
   env: {
     es2021: true,
-    node: true
+    node: true,
   },
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
-    '@typescript-eslint'
+    '@typescript-eslint',
   ],
   rules: {
     indent: [
       'error',
-      2
+      2,
     ],
     'linebreak-style': [
       'error',
-      'unix'
+      'unix',
     ],
     quotes: [
       'error',
-      'single'
+      'single',
     ],
     semi: [
       'error',
-      'never'
+      'never',
     ],
-    'quote-props': ['error', 'as-needed']
-  }
+    'quote-props': ['error', 'as-needed'],
+    'no-param-reassign': 'error',
+    'comma-dangle': ['error', 'always-multiline'],
+    'space-infix-ops': ['error'],
+    'no-multi-spaces': ['error'],
+  },
 }

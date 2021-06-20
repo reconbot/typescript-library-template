@@ -13,7 +13,7 @@ if (extractorResult.succeeded) {
 } else {
   console.error(
     `API Extractor completed with ${extractorResult.errorCount} errors` +
-      ` and ${extractorResult.warningCount} warnings`
+      ` and ${extractorResult.warningCount} warnings`,
   )
   process.exit(1)
 }

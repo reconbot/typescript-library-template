@@ -3,10 +3,10 @@ import resolve from 'rollup-plugin-node-resolve'
 export default {
   input: './dist-ts/index.js',
   plugins: [
-    resolve({})
+    resolve({}),
   ],
   output: [
     { format: 'esm', file: './dist/index-esm.mjs' },
-    { format: 'umd', name: 'streamingIterables', file: './dist/index.js' }
-  ]
+    { format: 'umd', name: 'streamingIterables', file: './dist/index.js' },
+  ],
 }
