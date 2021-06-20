@@ -7,4 +7,4 @@ This is an example project for shipping typescript using the rules layed out by 
 
 It gives you a library in UMD and ESM that's rolled up with rollup and includes rolled up types. It makes browser users, node users and me very happy.
 
-Also includes tslint and mocha.
+Also includes eslint and mocha. Now updated to include the exports directive in the package.json.

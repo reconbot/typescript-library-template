@@ -6,7 +6,7 @@ export default {
     resolve({})
   ],
   output: [
-    { format: 'esm', file: './dist/index-esm.js' },
+    { format: 'esm', file: './dist/index-esm.mjs' },
     { format: 'umd', name: 'streamingIterables', file: './dist/index.js' }
   ]
 }
