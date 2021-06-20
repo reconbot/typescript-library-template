@@ -23,5 +23,5 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
-      - name: Release
+      - name: Lint
         run: npm run lint
