@@ -9,4 +9,5 @@ export default {
     { format: 'esm', file: './dist/index-esm.mjs' },
     { format: 'umd', name: 'streamingIterables', file: './dist/index.js' },
   ],
+  external: [],
 }
