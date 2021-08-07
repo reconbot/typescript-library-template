@@ -8,10 +8,11 @@
     "noImplicitAny": false,
     "strictNullChecks": true,
     "declaration": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "lib/*",
+    "lib/**/*.ts",
   ],
   "exclude": [
     "node_modules"
