@@ -48,6 +48,6 @@
       "ts-eager/register",
       "chai/register-assert"
     ],
-    "spec": "lib/*-test.ts"
+    "spec": "lib/**/*-test.ts"
   }
 }
