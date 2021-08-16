@@ -30,7 +30,7 @@
     "@microsoft/api-extractor": "^7.18.5",
     "@types/chai": "^4.2.19",
     "@types/mocha": "^8.2.2",
-    "@types/node": "^15.12.4",
+    "@types/node": "^16.6.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "chai": "^4.3.4",
