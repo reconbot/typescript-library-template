@@ -9,7 +9,8 @@
     "strictNullChecks": true,
     "declaration": true,
     "importHelpers": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "useUnknownInCatchVariables": false
   },
   "include": [
     "lib/**/*.ts",
