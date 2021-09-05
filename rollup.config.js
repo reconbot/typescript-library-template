@@ -7,7 +7,7 @@ export default {
   ],
   output: [
     { format: 'esm', file: './dist/index-esm.mjs' },
-    { format: 'umd', name: 'streamingIterables', file: './dist/index.js' },
+    { format: 'cjs', file: './dist/index.js' },
   ],
   external: [],
 }
