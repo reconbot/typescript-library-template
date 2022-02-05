@@ -26,29 +26,27 @@
     "typescript-library-template"
   ],
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@microsoft/api-extractor": "^7.19.4",
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",
-    "@types/node": "^17.0.8",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "chai": "^4.3.4",
-    "esbuild": "^0.14.11",
+    "@types/node": "^17.0.15",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "chai": "^4.3.6",
+    "esbuild": "^0.14.18",
     "esbuild-register": "^3.3.2",
-    "eslint": "^7.32.0",
+    "eslint": "^8.8.0",
     "mocha": "^9.2.0",
-    "rollup": "^2.62.0",
+    "rollup": "^2.67.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "semantic-release": "^18.0.1",
+    "semantic-release": "^19.0.2",
     "typescript": "^4.5.5"
   },
   "mocha": {
     "bail": true,
     "require": [
-      "esbuild-register",
-      "chai/register-assert"
+      "esbuild-register"
     ],
     "spec": "lib/**/*-test.ts"
   }
