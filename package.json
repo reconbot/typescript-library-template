@@ -9,7 +9,7 @@
     "default": "./dist/index-esm.mjs"
   },
   "engines": {
-    "node": "^12.22 || ^14.13 || >=16"
+    "node": "^14.13 || >=16 || >=18"
   },
   "repository": "git@github.com:reconbot/typescript-library-template.git",
   "homepage": "https://github.com/reconbot/typescript-library-template",
@@ -27,12 +27,12 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@microsoft/api-extractor": "7.19.4",
-    "@types/chai": "4.3.0",
-    "@types/mocha": "9.1.0",
-    "@types/node": "17.0.15",
-    "@typescript-eslint/eslint-plugin": "5.13.0",
-    "@typescript-eslint/parser": "5.13.0",
+    "@microsoft/api-extractor": "7.29.3",
+    "@types/chai": "4.3.3",
+    "@types/mocha": "9.1.1",
+    "@types/node": "18.7.8",
+    "@typescript-eslint/eslint-plugin": "5.33.1",
+    "@typescript-eslint/parser": "5.33.1",
     "chai": "4.3.6",
     "esbuild": "0.14.47",
     "esbuild-register": "3.3.2",
