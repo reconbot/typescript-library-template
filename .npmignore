@@ -1,6 +1,7 @@
 .eslintrc.js
 .github
 .gitignore
+.releaserc
 .vscode
 api-extractor.json
 bundle-types.ts
