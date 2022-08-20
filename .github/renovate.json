@@ -19,7 +19,7 @@
         ".*eslint.*",
         "typescript",
         "@microsoft/api-extractor",
-        "rollup.*",
+        ".*rollup.*",
         "semantic-release"
       ],
       "automerge": true,
