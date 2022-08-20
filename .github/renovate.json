@@ -4,5 +4,26 @@
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 20,
-  "timezone": "America/New_York"
+  "timezone": "America/New_York",
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchPackagePatterns": [
+        "@types.*",
+        "mocha",
+        "chai",
+        "esbuild",
+        "esbuild-register",
+        ".*eslint.*",
+        "typescript",
+        "@microsoft/api-extractor",
+        "rollup.*",
+        "semantic-release"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ]
 }
