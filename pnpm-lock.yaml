@@ -13,13 +13,13 @@ specifiers:
   esbuild-register: 3.3.3
   eslint: 8.23.0
   mocha: 10.0.0
-  rollup: 2.78.1
+  rollup: 2.79.0
   semantic-release: 19.0.5
   typescript: 4.8.2
 
 devDependencies:
   '@microsoft/api-extractor': 7.29.5
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.78.1
+  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.0
   '@types/chai': 4.3.3
   '@types/mocha': 9.1.1
   '@types/node': 18.7.8
@@ -30,7 +30,7 @@ devDependencies:
   esbuild-register: 3.3.3_esbuild@0.15.6
   eslint: 8.23.0
   mocha: 10.0.0
-  rollup: 2.78.1
+  rollup: 2.79.0
   semantic-release: 19.0.5
   typescript: 4.8.2
 
@@ -290,22 +290,22 @@ packages:
       '@octokit/openapi-types': 13.3.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.78.1:
+  /@rollup/plugin-node-resolve/13.3.0_rollup@2.79.0:
     resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.78.1
+      '@rollup/pluginutils': 3.1.0_rollup@2.79.0
       '@types/resolve': 1.17.1
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.79.0
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.78.1:
+  /@rollup/pluginutils/3.1.0_rollup@2.79.0:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -314,7 +314,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.78.1
+      rollup: 2.79.0
     dev: true
 
   /@rushstack/node-core-library/3.51.1:
@@ -2869,8 +2869,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/2.78.1:
-    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
+  /rollup/2.79.0:
+    resolution: {integrity: sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
