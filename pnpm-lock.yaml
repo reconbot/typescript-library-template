@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@microsoft/api-extractor': 7.30.0
-  '@rollup/plugin-node-resolve': 13.3.0
+  '@rollup/plugin-node-resolve': 14.0.0
   '@types/chai': 4.3.3
   '@types/mocha': 9.1.1
   '@types/node': 18.7.8
@@ -19,7 +19,7 @@ specifiers:
 
 devDependencies:
   '@microsoft/api-extractor': 7.30.0
-  '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.0
+  '@rollup/plugin-node-resolve': 14.0.0_rollup@2.79.0
   '@types/chai': 4.3.3
   '@types/mocha': 9.1.1
   '@types/node': 18.7.8
@@ -290,11 +290,11 @@ packages:
       '@octokit/openapi-types': 13.3.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.3.0_rollup@2.79.0:
-    resolution: {integrity: sha512-Lus8rbUo1eEcnS4yTFKLZrVumLPY+YayBdWXgFSHYhTT2iJbMhoaaBL3xl5NCdeRytErGr8tZ0L71BMRmnlwSw==}
+  /@rollup/plugin-node-resolve/14.0.0_rollup@2.79.0:
+    resolution: {integrity: sha512-XkWfpgp/zGiFu8LS+JAiQeZN4oYYA4/ViFJiZhwQegTg5ZbzKTvM9YyKXVBNnmZ8Et76WnlVgwRUu1rhKF4ayw==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
-      rollup: ^2.42.0
+      rollup: ^2.78.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.0
       '@types/resolve': 1.17.1
