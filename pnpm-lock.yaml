@@ -4,7 +4,7 @@ specifiers:
   '@microsoft/api-extractor': 7.31.2
   '@rollup/plugin-node-resolve': 14.1.0
   '@types/chai': 4.3.3
-  '@types/mocha': 9.1.1
+  '@types/mocha': 10.0.0
   '@types/node': 18.7.8
   '@typescript-eslint/eslint-plugin': 5.38.1
   '@typescript-eslint/parser': 5.38.1
@@ -21,7 +21,7 @@ devDependencies:
   '@microsoft/api-extractor': 7.31.2
   '@rollup/plugin-node-resolve': 14.1.0_rollup@2.79.1
   '@types/chai': 4.3.3
-  '@types/mocha': 9.1.1
+  '@types/mocha': 10.0.0
   '@types/node': 18.7.8
   '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
   '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
@@ -478,8 +478,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/mocha/9.1.1:
-    resolution: {integrity: sha512-Z61JK7DKDtdKTWwLeElSEBcWGRLY8g95ic5FoQqI9CMx0ns/Ghep3B4DfcEimiKMvtamNVULVNKEsiwV3aQmXw==}
+  /@types/mocha/10.0.0:
+    resolution: {integrity: sha512-rADY+HtTOA52l9VZWtgQfn4p+UDVM2eDVkMZT1I6syp0YKxW2F9v+0pbRZLsvskhQv/vMb6ZfCay81GHbz5SHg==}
     dev: true
 
   /@types/node/12.20.24:
