@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-extractor': 7.32.1
+  '@microsoft/api-extractor': 7.33.0
   '@rollup/plugin-node-resolve': 15.0.0
   '@types/chai': 4.3.3
   '@types/mocha': 10.0.0
@@ -18,7 +18,7 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@microsoft/api-extractor': 7.32.1
+  '@microsoft/api-extractor': 7.33.0
   '@rollup/plugin-node-resolve': 15.0.0_rollup@3.0.0
   '@types/chai': 4.3.3
   '@types/mocha': 10.0.0
@@ -119,19 +119,19 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@microsoft/api-extractor-model/7.24.4:
-    resolution: {integrity: sha512-xYzRQqxurZVrmEM14BJ2aZqAUq+K46EAFj2Qlf0GkVPSFy1vP4Qf3sa2AbBi26Up2QsSicEVdqcd44eeVt9k9Q==}
+  /@microsoft/api-extractor-model/7.25.0:
+    resolution: {integrity: sha512-iGZrBui+7Sde7Rk8vsfnBSIilJ48wiGNxReb4N1ij8OrWCtjSB8fSVkOxL9oR6El7KowrZN51T8SdTzysLAelQ==}
     dependencies:
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.1
       '@rushstack/node-core-library': 3.53.1
     dev: true
 
-  /@microsoft/api-extractor/7.32.1:
-    resolution: {integrity: sha512-bHijLt3MVIjrk7Uzu1mjvfM6IVt0kwZdBRLrYEnCLBnUqp4dxurV8NeKAovjUV68I70wVz/DMUlEofc4qh1CUA==}
+  /@microsoft/api-extractor/7.33.0:
+    resolution: {integrity: sha512-yf0Kzn1o6fQf/xwwkmOZAXHFbj3q1xvmqvTVltO5lDnESh9Nv5KIaALryxcuf8tbytP2auQmd3C7+Zx5SbmZHg==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.24.4
+      '@microsoft/api-extractor-model': 7.25.0
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.1
       '@rushstack/node-core-library': 3.53.1
