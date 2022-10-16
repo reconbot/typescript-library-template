@@ -13,13 +13,13 @@ specifiers:
   esbuild-register: 3.3.3
   eslint: 8.25.0
   mocha: 10.1.0
-  rollup: 3.2.0
+  rollup: 3.2.1
   semantic-release: 19.0.5
   typescript: 4.8.4
 
 devDependencies:
   '@microsoft/api-extractor': 7.33.2
-  '@rollup/plugin-node-resolve': 15.0.0_rollup@3.2.0
+  '@rollup/plugin-node-resolve': 15.0.0_rollup@3.2.1
   '@types/chai': 4.3.3
   '@types/mocha': 10.0.0
   '@types/node': 18.7.8
@@ -30,7 +30,7 @@ devDependencies:
   esbuild-register: 3.3.3_esbuild@0.15.11
   eslint: 8.25.0
   mocha: 10.1.0
-  rollup: 3.2.0
+  rollup: 3.2.1
   semantic-release: 19.0.5
   typescript: 4.8.4
 
@@ -295,7 +295,7 @@ packages:
       '@octokit/openapi-types': 13.3.0
     dev: true
 
-  /@rollup/plugin-node-resolve/15.0.0_rollup@3.2.0:
+  /@rollup/plugin-node-resolve/15.0.0_rollup@3.2.1:
     resolution: {integrity: sha512-iwJbzfTzlzDDQcGmkS7EkCKwe2kSkdBrjX87Fy/KrNjr6UNnLpod0t6X66e502LRe5JJCA4FFqrEscWPnZAkig==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -310,7 +310,7 @@ packages:
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 3.2.0
+      rollup: 3.2.1
     dev: true
 
   /@rollup/pluginutils/4.2.1:
@@ -2862,8 +2862,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.2.0:
-    resolution: {integrity: sha512-0ZkFPyBNvx717KvC700NoxUD31aEEX675u6INJVAmBgKtQuCL8jmmJCj1b9B/qDSnILAvASVKa7UpGS+FLN6AQ==}
+  /rollup/3.2.1:
+    resolution: {integrity: sha512-Y9lBWYY7pOiWhJbwMEnLicDuTu9IqjJb5jJM88L8O5rdreJrX1j9WhriMHQSOwVYPFg1xkLoXQyDfQ2U6Ejzyg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
