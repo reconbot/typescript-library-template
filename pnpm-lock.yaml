@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-extractor': 7.33.2
+  '@microsoft/api-extractor': 7.33.3
   '@rollup/plugin-node-resolve': 15.0.0
   '@types/chai': 4.3.3
   '@types/mocha': 10.0.0
@@ -18,7 +18,7 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@microsoft/api-extractor': 7.33.2
+  '@microsoft/api-extractor': 7.33.3
   '@rollup/plugin-node-resolve': 15.0.0_rollup@3.2.2
   '@types/chai': 4.3.3
   '@types/mocha': 10.0.0
@@ -127,8 +127,8 @@ packages:
       '@rushstack/node-core-library': 3.53.2
     dev: true
 
-  /@microsoft/api-extractor/7.33.2:
-    resolution: {integrity: sha512-OTCOtpQgvvRnxyCAHCPEDXVyJXrj54sGNCltOQaaT1wkTUPmRYo/I8yrCGXiBPUIHOpV3lUnaDJkzQF9dtbNWA==}
+  /@microsoft/api-extractor/7.33.3:
+    resolution: {integrity: sha512-Djrb0/7hE3WYO9+U17PRlcHmkKwIiz8LdyoFK+GCcrc+bVcif9rwJdlNu9fXnNEMelbtiHlHppcKDfJ4uRTE3g==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor-model': 7.25.1
