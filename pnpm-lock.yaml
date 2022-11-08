@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-extractor': 7.33.5
+  '@microsoft/api-extractor': 7.33.6
   '@rollup/plugin-node-resolve': 15.0.1
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.0
@@ -18,7 +18,7 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@microsoft/api-extractor': 7.33.5
+  '@microsoft/api-extractor': 7.33.6
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.5
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.0
@@ -127,8 +127,8 @@ packages:
       '@rushstack/node-core-library': 3.53.2
     dev: true
 
-  /@microsoft/api-extractor/7.33.5:
-    resolution: {integrity: sha512-ENoWpTWarKNuodpRFDQr3jyBigHuv98KuJ8H5qXc1LZ1aP5Mk77lCo88HbPisTmSnGevJJHTScfd/DPznOb4CQ==}
+  /@microsoft/api-extractor/7.33.6:
+    resolution: {integrity: sha512-EYu1qWiMyvP/P+7na76PbE7+eOtvuYIvQa2DhZqkSQSLYP2sKLmZaSMK5Jvpgdr0fK/xLFujK5vLf3vpfcmC8g==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor-model': 7.25.2
@@ -136,7 +136,7 @@ packages:
       '@microsoft/tsdoc-config': 0.16.1
       '@rushstack/node-core-library': 3.53.2
       '@rushstack/rig-package': 0.3.17
-      '@rushstack/ts-command-line': 4.13.0
+      '@rushstack/ts-command-line': 4.13.1
       colors: 1.2.5
       lodash: 4.17.21
       resolve: 1.17.0
@@ -352,8 +352,8 @@ packages:
       strip-json-comments: 3.1.1
     dev: true
 
-  /@rushstack/ts-command-line/4.13.0:
-    resolution: {integrity: sha512-crLT31kl+qilz0eBRjqqYO06CqwbElc0EvzS6jI69B9Ikt1SkkSzIZ2iDP7zt/rd1ZYipKIS9hf9CQR9swDIKg==}
+  /@rushstack/ts-command-line/4.13.1:
+    resolution: {integrity: sha512-UTQMRyy/jH1IS2U+6pyzyn9xQ2iMcoUKkTcZUzOP/aaMiKlWLwCTDiBVwhw/M1crDx6apF9CwyjuWO9r1SBdJQ==}
     dependencies:
       '@types/argparse': 1.0.38
       argparse: 1.0.10
