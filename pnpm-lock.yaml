@@ -10,7 +10,7 @@ specifiers:
   '@typescript-eslint/parser': 5.42.1
   chai: 4.3.7
   esbuild: 0.15.13
-  esbuild-register: 3.3.3
+  esbuild-register: 3.4.0
   eslint: 8.27.0
   mocha: 10.1.0
   rollup: 3.2.5
@@ -27,7 +27,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   chai: 4.3.7
   esbuild: 0.15.13
-  esbuild-register: 3.3.3_esbuild@0.15.13
+  esbuild-register: 3.4.0_esbuild@0.15.13
   eslint: 8.27.0
   mocha: 10.1.0
   rollup: 3.2.5
@@ -1320,12 +1320,15 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-register/3.3.3_esbuild@0.15.13:
-    resolution: {integrity: sha512-eFHOkutgIMJY5gc8LUp/7c+LLlDqzNi9T6AwCZ2WKKl3HmT+5ef3ZRyPPxDOynInML0fgaC50yszPKfPnjC0NQ==}
+  /esbuild-register/3.4.0_esbuild@0.15.13:
+    resolution: {integrity: sha512-EquMnCzCeHTMJIzThI5Le7MCUYkoX3Prk7/hpZ1mUAwHsvalmgTeXdip+SAId9QmKN0TgxPA90x3OWqAOpR16g==}
     peerDependencies:
       esbuild: '>=0.12 <1'
     dependencies:
+      debug: 4.3.4
       esbuild: 0.15.13
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /esbuild-sunos-64/0.15.13:
