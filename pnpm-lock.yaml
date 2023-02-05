@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 15.0.1
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.1
-  '@types/node': 18.11.18
+  '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.50.0
   '@typescript-eslint/parser': 5.50.0
   chai: 4.3.7
@@ -22,7 +22,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.13.0
   '@types/chai': 4.3.4
   '@types/mocha': 10.0.1
-  '@types/node': 18.11.18
+  '@types/node': 18.11.19
   '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
   '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
   chai: 4.3.7
@@ -672,8 +672,8 @@ packages:
     resolution: {integrity: sha512-yxDeaQIAJlMav7fH5AQqPH1u8YIuhYJXYBzxaQ4PifsU0GDO38MSdmEDeRlIxrKbC6NbEaaEHDanWb+y30U8SQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.11.19:
+    resolution: {integrity: sha512-YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
