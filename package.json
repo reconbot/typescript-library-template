@@ -40,7 +40,7 @@
     "eslint": "8.41.0",
     "mocha": "10.2.0",
     "rollup": "3.23.0",
-    "@rollup/plugin-node-resolve": "15.0.2",
+    "@rollup/plugin-node-resolve": "15.1.0",
     "semantic-release": "21.0.2",
     "typescript": "5.0.4"
   },
