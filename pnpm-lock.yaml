@@ -13,13 +13,13 @@ specifiers:
   esbuild-register: 3.4.2
   eslint: 8.46.0
   mocha: 10.2.0
-  rollup: 3.26.3
+  rollup: 3.27.0
   semantic-release: 21.0.3
   typescript: 5.1.6
 
 devDependencies:
   '@microsoft/api-extractor': 7.36.3_@types+node@18.17.1
-  '@rollup/plugin-node-resolve': 15.1.0_rollup@3.26.3
+  '@rollup/plugin-node-resolve': 15.1.0_rollup@3.27.0
   '@types/chai': 4.3.5
   '@types/mocha': 10.0.1
   '@types/node': 18.17.1
@@ -30,7 +30,7 @@ devDependencies:
   esbuild-register: 3.4.2_esbuild@0.18.17
   eslint: 8.46.0
   mocha: 10.2.0
-  rollup: 3.26.3
+  rollup: 3.27.0
   semantic-release: 21.0.3
   typescript: 5.1.6
 
@@ -540,7 +540,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-node-resolve/15.1.0_rollup@3.26.3:
+  /@rollup/plugin-node-resolve/15.1.0_rollup@3.27.0:
     resolution: {integrity: sha512-xeZHCgsiZ9pzYVgAo9580eCGqwh/XCEUM9q6iQfGNocjgkufHAqC3exA+45URvhiYV8sBF9RlBai650eNs7AsA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -549,16 +549,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.26.3
+      '@rollup/pluginutils': 5.0.2_rollup@3.27.0
       '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.1
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 3.26.3
+      rollup: 3.27.0
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.26.3:
+  /@rollup/pluginutils/5.0.2_rollup@3.27.0:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -570,7 +570,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.26.3
+      rollup: 3.27.0
     dev: true
 
   /@rushstack/node-core-library/3.59.6_@types+node@18.17.1:
@@ -2970,8 +2970,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/3.26.3:
-    resolution: {integrity: sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==}
+  /rollup/3.27.0:
+    resolution: {integrity: sha512-aOltLCrYZ0FhJDm7fCqwTjIUEVjWjcydKBV/Zeid6Mn8BWgDCUBBWT5beM5ieForYNo/1ZHuGJdka26kvQ3Gzg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
