@@ -10,7 +10,7 @@
   },
   "packageManager": "pnpm@8.6.12",
   "engines": {
-    "node": "^14.13 || >=16 || >=18"
+    "node": ">=18"
   },
   "repository": "git@github.com:reconbot/typescript-library-template.git",
   "homepage": "https://github.com/reconbot/typescript-library-template",
