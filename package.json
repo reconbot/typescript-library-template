@@ -41,7 +41,7 @@
     "mocha": "10.2.0",
     "rollup": "3.28.0",
     "@rollup/plugin-node-resolve": "15.1.0",
-    "semantic-release": "21.0.3",
+    "semantic-release": "21.0.7",
     "typescript": "5.1.6"
   },
   "mocha": {
