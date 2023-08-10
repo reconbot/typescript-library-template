@@ -13,7 +13,6 @@
       "matchPackagePatterns": [
         "@types.*",
         "mocha",
-        "chai",
         "esbuild",
         "esbuild-register",
         ".*eslint.*",

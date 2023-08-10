@@ -1,8 +1,10 @@
 import resolve from '@rollup/plugin-node-resolve'
+import typescript from '@rollup/plugin-typescript'
 
 export default {
-  input: './dist-ts/index.js',
+  input: './lib/index.ts',
   plugins: [
+    typescript(),
     resolve({}),
   ],
   output: [

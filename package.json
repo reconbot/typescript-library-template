@@ -10,16 +10,16 @@
   },
   "packageManager": "pnpm@8.6.12",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "repository": "git@github.com:reconbot/typescript-library-template.git",
   "homepage": "https://github.com/reconbot/typescript-library-template",
   "scripts": {
-    "test": "mocha",
+    "test": "node -r esbuild-register --test lib/*-test.ts",
     "lint": "tsc && eslint lib/**/*.ts",
     "format": "eslint lib/**/*.ts --fix",
     "clean": "rm -rf dist-ts dist",
-    "build": "npm run clean && tsc -p tsconfig-build.json && rollup -c && node -r esbuild-register bundle-types",
+    "build": "npm run clean && rollup -c && node -r esbuild-register bundle-types",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release"
   },
@@ -28,27 +28,18 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@microsoft/api-extractor": "7.36.4",
-    "@types/chai": "4.3.5",
-    "@types/mocha": "10.0.1",
-    "@types/node": "18.17.4",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "@rollup/plugin-typescript": "11.1.2",
+    "@types/node": "20.4.9",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "@typescript-eslint/parser": "6.3.0",
-    "chai": "4.3.7",
+    "dts-buddy": "0.1.9",
     "esbuild": "0.19.0",
     "esbuild-register": "3.4.2",
     "eslint": "8.46.0",
-    "mocha": "10.2.0",
     "rollup": "3.28.0",
-    "@rollup/plugin-node-resolve": "15.1.0",
     "semantic-release": "21.0.7",
+    "tslib": "2.6.1",
     "typescript": "5.1.6"
-  },
-  "mocha": {
-    "bail": true,
-    "require": [
-      "esbuild-register"
-    ],
-    "spec": "lib/**/*-test.ts"
   }
 }
