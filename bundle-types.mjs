@@ -4,6 +4,6 @@ await createBundle({
   project: 'tsconfig.json',
   output: 'dist/index.d.ts',
   modules: {
-    'streaming-iterables': './lib/index.ts',
+    '@reconbot/typescript-library-template': './lib/index.ts',
   },
 })
