@@ -30,7 +30,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "15.1.0",
     "@rollup/plugin-typescript": "11.1.2",
-    "@types/node": "20.4.9",
+    "@types/node": "20.4.10",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "@typescript-eslint/parser": "6.3.0",
     "dts-buddy": "0.1.9",
