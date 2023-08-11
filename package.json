@@ -36,7 +36,7 @@
     "dts-buddy": "0.1.9",
     "esbuild": "0.19.0",
     "esbuild-register": "3.4.2",
-    "eslint": "8.46.0",
+    "eslint": "8.47.0",
     "rollup": "3.28.0",
     "semantic-release": "21.0.7",
     "tslib": "2.6.1",
