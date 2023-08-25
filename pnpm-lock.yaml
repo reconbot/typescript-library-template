@@ -21,8 +21,8 @@ devDependencies:
     specifier: 6.4.1
     version: 6.4.1(eslint@8.47.0)(typescript@5.2.2)
   dts-buddy:
-    specifier: 0.1.9
-    version: 0.1.9
+    specifier: 0.1.14
+    version: 0.1.14
   esbuild:
     specifier: 0.19.2
     version: 0.19.2
@@ -1201,8 +1201,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dts-buddy@0.1.9:
-    resolution: {integrity: sha512-I12BngU+NFY2njbTFCpiDqyvEFSYoMxqMpwBt1pykBEbWY6DbyDd9m0GOzd1hhpSDHDulgmQUntw5EZPNaptNA==}
+  /dts-buddy@0.1.14:
+    resolution: {integrity: sha512-5ckMwd5mVHwPBDXZ6ajhY83jBwcXEaqkHhM67XgauIRXgFrawKWkzBiG2JEt/KyKXo536z9ceB/QhHL8ri3QqQ==}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
@@ -1210,11 +1210,11 @@ packages:
       globrex: 0.1.2
       kleur: 4.1.5
       locate-character: 3.0.0
-      magic-string: 0.30.2
+      magic-string: 0.30.3
       sade: 1.8.1
       tiny-glob: 0.2.9
-      ts-api-utils: 0.0.46(typescript@5.2.2)
-      typescript: 5.2.2
+      ts-api-utils: 1.0.2(typescript@5.0.4)
+      typescript: 5.0.4
     dev: true
 
   /duplexer2@0.1.4:
@@ -2103,8 +2103,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /magic-string@0.30.2:
-    resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
+  /magic-string@0.30.3:
+    resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -3051,15 +3051,6 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-api-utils@0.0.46(typescript@5.2.2):
-    resolution: {integrity: sha512-YKJeSx39n0mMk+hrpyHKyTgxA3s7Pz/j1cXYR+t8HcwwZupzOR5xDGKnOEw3gmLaUeFUQt3FJD39AH9Ajn/mdA==}
-    engines: {node: '>=16.13.0'}
-    peerDependencies:
-      typescript: '>=4.2.0'
-    dependencies:
-      typescript: 5.2.2
-    dev: true
-
   /ts-api-utils@1.0.1(typescript@5.2.2):
     resolution: {integrity: sha512-lC/RGlPmwdrIBFTX59wwNzqh7aR2otPNPR/5brHZm/XKFYKsfqxihXUe9pU3JI+3vGkl+vyCoNNnPhJn3aLK1A==}
     engines: {node: '>=16.13.0'}
@@ -3067,6 +3058,15 @@ packages:
       typescript: '>=4.2.0'
     dependencies:
       typescript: 5.2.2
+    dev: true
+
+  /ts-api-utils@1.0.2(typescript@5.0.4):
+    resolution: {integrity: sha512-Cbu4nIqnEdd+THNEsBdkolnOXhg0I8XteoHaEKgvsxpsbWda4IsUut2c187HxywQCvveojow0Dgw/amxtSKVkQ==}
+    engines: {node: '>=16.13.0'}
+    peerDependencies:
+      typescript: '>=4.2.0'
+    dependencies:
+      typescript: 5.0.4
     dev: true
 
   /tslib@2.6.1:
@@ -3113,6 +3113,12 @@ packages:
   /type-fest@3.13.1:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
     engines: {node: '>=14.16'}
+    dev: true
+
+  /typescript@5.0.4:
+    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
+    engines: {node: '>=12.20'}
+    hasBin: true
     dev: true
 
   /typescript@5.2.2:
