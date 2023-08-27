@@ -11,15 +11,16 @@
         "devDependencies"
       ],
       "matchPackagePatterns": [
-        "@types.*",
-        "mocha",
-        "esbuild",
-        "esbuild-register",
         ".*eslint.*",
-        "typescript",
-        "@microsoft/api-extractor",
         ".*rollup.*",
-        "semantic-release"
+        "@microsoft/api-extractor",
+        "@types.*",
+        "esbuild-register",
+        "esbuild",
+        "mocha",
+        "semantic-release",
+        "tslib",
+        "typescript"
       ],
       "automerge": true,
       "automergeType": "branch"
