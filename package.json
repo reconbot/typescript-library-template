@@ -19,7 +19,7 @@
     "lint": "tsc && eslint lib/**/*.ts",
     "format": "eslint lib/**/*.ts --fix",
     "clean": "rm -rf dist",
-    "build": "npm run clean && rollup -c && node -r esbuild-register bundle-types",
+    "build": "npm run clean && rollup -c && node bundle-types.mjs",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release"
   },
