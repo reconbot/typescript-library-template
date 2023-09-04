@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@rollup/plugin-commonjs':
-    specifier: ^25.0.4
+    specifier: 25.0.4
     version: 25.0.4(rollup@3.28.1)
   '@rollup/plugin-node-resolve':
     specifier: 15.2.1
