@@ -35,7 +35,7 @@
     "@typescript-eslint/eslint-plugin": "7.12.0",
     "@typescript-eslint/parser": "7.12.0",
     "dts-buddy": "0.2.4",
-    "esbuild": "0.21.4",
+    "esbuild": "0.21.5",
     "esbuild-register": "3.5.0",
     "eslint": "8.57.0",
     "rollup": "4.18.0",
