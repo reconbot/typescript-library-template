@@ -38,7 +38,7 @@
     "esbuild": "0.23.1",
     "esbuild-register": "3.6.0",
     "eslint": "8.57.1",
-    "rollup": "4.21.3",
+    "rollup": "4.22.0",
     "semantic-release": "24.1.1",
     "tslib": "2.7.0",
     "typescript": "5.6.2"
