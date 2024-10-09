@@ -34,7 +34,7 @@
     "@types/node": "20.16.11",
     "@typescript-eslint/eslint-plugin": "8.8.1",
     "@typescript-eslint/parser": "8.8.1",
-    "dts-buddy": "0.2.4",
+    "dts-buddy": "0.5.3",
     "esbuild": "0.24.0",
     "esbuild-register": "3.6.0",
     "eslint": "8.57.1",
