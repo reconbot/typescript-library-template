@@ -31,7 +31,7 @@
     "@rollup/plugin-commonjs": "28.0.1",
     "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-typescript": "12.1.1",
-    "@types/node": "20.16.14",
+    "@types/node": "20.16.15",
     "@typescript-eslint/eslint-plugin": "8.11.0",
     "@typescript-eslint/parser": "8.11.0",
     "dts-buddy": "0.2.4",
