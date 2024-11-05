@@ -15,8 +15,8 @@ devDependencies:
     specifier: 12.1.1
     version: 12.1.1(rollup@4.24.4)(tslib@2.8.1)(typescript@5.6.3)
   '@types/node':
-    specifier: 22.8.7
-    version: 22.8.7
+    specifier: 22.9.0
+    version: 22.9.0
   '@typescript-eslint/eslint-plugin':
     specifier: 8.13.0
     version: 8.13.0(@typescript-eslint/parser@8.13.0)(eslint@8.57.1)(typescript@5.6.3)
@@ -875,8 +875,8 @@ packages:
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
     dev: true
 
-  /@types/node@22.8.7:
-    resolution: {integrity: sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==}
+  /@types/node@22.9.0:
+    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
     dependencies:
       undici-types: 6.19.8
     dev: true
