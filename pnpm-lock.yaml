@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@rollup/plugin-commonjs':
-    specifier: 28.0.6
-    version: 28.0.6(rollup@4.52.4)
+    specifier: 28.0.7
+    version: 28.0.7(rollup@4.52.4)
   '@rollup/plugin-node-resolve':
     specifier: 16.0.3
     version: 16.0.3(rollup@4.52.4)
@@ -571,8 +571,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-commonjs@28.0.6(rollup@4.52.4):
-    resolution: {integrity: sha512-XSQB1K7FUU5QP+3lOQmVCE3I0FcbbNvmNT4VJSj93iUjayaARrTQeoRdiYQoftAJBLrR9t2agwAd3ekaTgHNlw==}
+  /@rollup/plugin-commonjs@28.0.7(rollup@4.52.4):
+    resolution: {integrity: sha512-6cE2Wr/MkpdtTS8gXlCn9Zdmf7e9Xm96yFqOwFEXuvYLAHtjRf57/n6GEVF4K8NSesT1eKdBtcDA/SQdpW/8nA==}
     engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
